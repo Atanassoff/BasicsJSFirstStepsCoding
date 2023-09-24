@@ -1,0 +1,5 @@
+function demo(arg){
+    let inches = Number(arg[0]);
+    let centimeters = inches * 2.54;
+    console.log(centimeters);
+}
