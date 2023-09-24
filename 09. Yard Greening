@@ -1,0 +1,8 @@
+function demo(input){
+    let square = Number(input[0]);
+    let paint = square * 7.61;
+    let reduct = paint * 0.18;
+    let price = paint - reduct;
+    console.log(`The final price is: ${price} lv.`);
+    console.log(`The discount is: ${reduct} lv.`);
+}
