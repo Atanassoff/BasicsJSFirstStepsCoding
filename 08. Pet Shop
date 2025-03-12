@@ -1,7 +1,0 @@
-function demo(input){
-    let dogs = Number(input[0]);
-    let cats = Number(input[1]);
-    let moneyDogs = dogs * 2.5; let moneyCats = cats * 4;
-    let total = moneyDogs + moneyCats;
-    console.log(`${total} lv.`);
-}
